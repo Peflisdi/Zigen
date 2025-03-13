@@ -1,0 +1,25 @@
+#pricing {
+  & header {
+    text-align: center;
+  }
+
+  & .cards {
+    margin-top: 2rem;
+  }
+
+  & h3 {
+    font-size: 1.25rem;
+    margin-top: 0;
+  }
+
+  & .card p {
+    margin-top: 0.25rem;
+  }
+
+  @media (width >= 80em) {
+    & header {
+      max-width: 50rem;
+      margin-inline: auto;
+    }
+  }
+}
